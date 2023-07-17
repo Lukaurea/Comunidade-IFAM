@@ -1,0 +1,160 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+  
+  
+  body{
+    background: url(assets/daniel-olah-eoMCWbRkRs4-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+  }
+  
+  nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 40px;
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+  
+  .logo{
+    color:white;
+    font-size:28px;
+  }
+  
+  span{
+    color: #ea1538;
+  }
+  
+  nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 20px;
+  }
+  
+  nav ul li a{
+    color:white;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  nav ul li a:hover{
+    color: #ea1538;
+    transition: .3s;
+  }
+  button{
+    border:none;
+    background: #ea1538;
+    padding:12px 30px;
+    border-radius: 30px;
+    color: aliceblue;
+    font-weight: bold;
+    font-size: 15px;
+    transition: .4s;
+  }
+  
+  button:hover{
+    transform: scale(1);
+    cursor: pointer;
+  }
+  
+  main{
+    padding-top: 90px;
+    color: aliceblue;
+    font-family: 'Istok Web';
+    font-style: italic;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  h1{
+    color: rgb(221, 221, 221);
+    text-transform: uppercase;
+    /* margin-top: 5em; */
+    /* margin-left: 2.5em; */
+  }
+  
+  b{
+    color: rgb(115, 214, 122);
+  }
+  
+  .text-bx {
+    margin-top: 30px;
+  
+    /* Limite de tamanho */
+    max-width: 1280px;
+  
+    /* Espaçamento interior */
+    padding: 4.5em;
+  
+    /* Alinhando o limite de tamanh no centro da página */
+    margin-right: auto;
+    margin-left: auto;
+  
+    /* Tipo de Display */
+    display: grid;
+  
+    /* O grid-template-columns: 1fr 1fr  está dizendo tipo "esse grid terá duas colunas,
+    sendo 1 coluna correspondendo a uma fração da tela, outra coluna correspondendo a outra fração" */
+    grid-template-columns: 1fr 1fr;
+    
+    /* espaçamento do grid */
+    gap: 1em;
+  
+    /* Justificando o conteúdo para o centro */
+    justify-content: center;
+  }
+  
+  .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .lista{
+    font-size: x-large;
+    color: aliceblue;
+    margin-top: 20px;
+    list-style: none;
+  }
+  
+  .imagemICON {
+    /* position: absolute; */
+    max-width: 500px;
+    width: 100%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    /* left: 1000px;  */
+    /* top: 180px;  */
+  }
+
+  .socialMedias{
+    margin-top: 30px;
+  }
+.socialMedias i{
+    font-size: 23px;
+    margin: 0 3px;
+    color: white;
+    background-color: #70aa23;
+    padding: 7px;
+    border-radius: 5px;
+}
+#hora{
+    color: blueviolet;
+    border: 2px ;
+    
+}
+  @media screen and (max-width: 800px){
+    .text-bx {
+      grid-template-columns: 1fr;
+      padding: 2em;
+    }
+  }
+  
